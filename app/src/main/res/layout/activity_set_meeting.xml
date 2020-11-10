@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetMeeting">
+
+    <EditText
+        android:id="@+id/meetingName"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Meeting Name"
+        android:inputType="text"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/purple_500" />
+
+    <EditText
+        android:id="@+id/meetingDescription"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:hint="Enter Meeting Description"
+        android:inputType="textLongMessage"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/purple_500" />
+
+    <EditText
+        android:id="@+id/meetingLocation"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:hint="Enter Meeting Location"
+        android:inputType="textLongMessage"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/purple_500" />
+
+    <EditText
+        android:id="@+id/meetingDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:hint="Meeting Date and Time"
+        android:inputType="datetime"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/purple_500" />
+
+    <Button
+        android:id="@+id/meetingSubmit"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:drawableEnd="@drawable/ic_baseline_send_wgite"
+        android:drawableRight="@drawable/ic_baseline_send_wgite"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+</LinearLayout>
